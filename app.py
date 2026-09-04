@@ -26,7 +26,7 @@ def login_page():
             <p style='color:#888'>Your personal vocabulary learning system</p>
         </div>""", unsafe_allow_html=True)
 
-        tab1, tab2 = st.tabs(["🔑 Login", "✨ Register"])
+        tab1, tab2 = st.tabs([" Login", "Register"])
 
         with tab1:
             with st.form("login_form"):
